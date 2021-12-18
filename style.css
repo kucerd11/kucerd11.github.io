@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400;1,500&display=swap');
+
+body{
+    background-color: rgba(255, 255, 255, 0.904);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 200;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h1{
+    color:rgb(0, 0, 0);
+}
+
+.ava{
+    width: 200px;
+    border-radius:20px;
+    box-shadow: 7px 7px 7px rgba(17, 17, 17, 0.719);
+}
+
+.info p{
+    color:rgb(143, 143, 143);
+    margin:0;
+    font-style: italic;
+    font-weight: bolder;
+    /*text-decoration:underline ;*/
+    letter-spacing: 2px;
+    word-spacing: 3px;
+
+}
+
+.soc{
+    background-color: rgba(156, 120, 53, 0.493);
+    border-radius: 10px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin: 10px;
+}
+
+.soc p{
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.cont{
+    max-width: 100%;
+    margin: auto;
+}
+
+a{
+    color:rgb(255, 255, 255);
+    background-color: rgb(4, 170, 246);
+    padding: 4px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color:rgb(0, 119, 255);
+    background-color: white;
+}
+
+
+a:visited{
+    color:rgba(56, 34, 126, 0.801)
+}
+
+/*.soc {
+    margin: auto;
+    padding-left: 40%;
+    padding-right: 40% ;
+    border: 2px ridge rgb(70, 43, 43);
+    margin: 5px;
+}*/
+
+.card{
+    background-color: rgba(146, 114, 44, 0.582);
+    border-radius:15px;
+    border-radius: 10px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin: 10px;
+}
+
+.list li{
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.table{
+    width:100%;
+}
+
+.table td{
+    padding-bottom: 10px;
+}
+
+.contact h2{
+    text-align: center;
+}
+
+.names label{
+    display: block;
+    font-size: 20px;
+    color:rgb(49, 49, 49)
+}
+
+.rob{
+    background-color: rgba(112, 79, 17, 0.541);
+    padding: 10px;
+    border-radius: 10px;
+    margin-left:10px ;
+    margin-right:10px ;
+}
+
+.rob input{
+    border: none;
+    border-bottom: 1px solid rgb(70, 69, 69);
+    outline: rgba(17, 17, 17, 0.719);
+}
+
+.info{
+    display: flex;
+}
+
+.ref{
+    
+}
+
+.info img{
+    margin-right: 30px;
+}
+
+.ss{
+   margin: 10px;
+}
+
+a{
+    cursor:pointer;
+}
